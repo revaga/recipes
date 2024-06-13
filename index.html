@@ -4,26 +4,40 @@
   <h3> a guide to my experiments in the kitchen </h3>
 
   <div class="recipecard">
-    <div class="thaicurry"><a href="thaicurry.html"> Thai Curries </a> </div>
+    <div class="thaicurry"><a href="thaicurry.html"> Thai Curries </a> 
+      <p style="color: maroon; font-weight: bold;"> red </p>
+      <p style="color: darkgreen; font-weight: bold;"> green </p>
+      <p style="color: darkorange; font-weight: bold;"> yellow </p>
+    </div>
   <div class="brownies"><a href="brownies.html"> Brownies </a></div>
   <div class="brownies"> Chocolate Cake </div>
+  <div> <a href="pizza.html"> Pizza </a></div>
   </div>
 <style>
-  html{
+  *{
     background-color: light blue;
     font-family: 'Courier New', monospace;
+    justify-content: center;
+    align-items: center;
   }
   .recipecard {
    display: flex;
+   justify-content: space-around; 
 }
 
 /* this selector selects all divs inside of .flex-container */
 .recipecard div {
-  background: cream;
+  background-color: bisque;
   border: 2px solid black;
   border-radius: 10px;
-  height: 10px;
-  justify-content: space-around; 
+  height: fit-content;
+  padding: 1%;
+}
+.thaicurry{
+
+}
+.brownies{
+
 }
 </style>
 </html>
