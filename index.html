@@ -9,20 +9,25 @@
       <p style="color: darkgreen; font-weight: bold;"> green </p>
       <p style="color: darkorange; font-weight: bold;"> yellow </p>
     </div>
-  <div class="brownies"><a href="brownies.html"> Brownies </a></div>
-  <div class="brownies"> Chocolate Cake </div>
-  <div> <a href="pizza.html"> Pizza </a></div>
+  <div><a href="brownies.html"> Brownies </a></div>
+  <div> Chocolate Cake </div>
+  <div> <a href="pizza.html"> Pizza 🍕</a></div>
+  <div> <a href="bread.html"> Bread 🍞🥖</a></div>
   </div>
 <style>
   *{
-    background-color: light blue;
     font-family: 'Courier New', monospace;
     justify-content: center;
     align-items: center;
   }
   .recipecard {
+    border-radius: 4px;
+    border-color: blueviolet;
+    border: 10px;
    display: flex;
    justify-content: space-around; 
+   flex-direction: row;
+   flex-wrap: wrap;
 }
 
 /* this selector selects all divs inside of .flex-container */
@@ -32,11 +37,7 @@
   border-radius: 10px;
   height: fit-content;
   padding: 1%;
-}
-.thaicurry{
-
-}
-.brownies{
+  flex-grow: 4;
 
 }
 </style>
